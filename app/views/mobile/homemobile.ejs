@@ -1,0 +1,76 @@
+
+
+
+<section class="section-mb">
+  <div class="container">
+    <div class="row">
+      <div class="list-danhmuc-mb">
+        <div class="text-danhmuc-mb">DANH MỤC</div>
+        <div class="owl-danhmuc-mb">
+            <div class="owl-item">
+              <ul>
+               <% for(var i=0;i<6;i++){ %>
+                <li class="item-danhmuc-mb">
+                    <div class="image-item">
+                        <img src="/assest/image/<%=danhmucall.danhmucs[i].image[0].originalname %>" alt="<%=danhmucall.danhmucs[i].alt %> ">
+                    </div>
+                    <div class="text-item">
+                        <a href="/<%=danhmucall.danhmucs[i].link %>"><%=danhmucall.danhmucs[i].name %></a>
+                    </div>
+                </li>
+                <% } %>
+              </ul>
+            </div>
+            <div class="owl-item">
+              <ul>
+               <% for(var i=6;i<10;i++){ %>
+                <li class="item-danhmuc-mb end">
+                    <div class="image-item">
+                        <img src="/assest/image/<%=danhmucall.danhmucs[i].image[0].originalname %>" alt="<%=danhmucall.danhmucs[i].alt %> ">
+                    </div>
+                    <div class="text-item">
+                        <a href="<%=danhmucall.danhmucs[i].link %>"><%=danhmucall.danhmucs[i].name %></a>
+                    </div>
+                </li>
+                <% } %>
+              </ul>
+            </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="timkiemhangdau">
+        <div class="text-danhmuc-mb">Tìm kiếm hàng đầu</div>
+        <div class="owl-timkiemhangdau-mb">
+
+              <% for(var i=0;i<laptopall.count;i++){ %>
+            <div class="owl-item">
+              <div class="item-mb">
+                <div class="wrapper-image">
+                  <div class="image-timkiemhangdau-mb">
+                    <img src="assest/image/<%=laptopall.laptops[i].imagedefault[0].originalname %>" alt="<%=laptopall.laptops[i].imagedefault[0].originalname %>">
+                  </div></div>
+                <div class="wapper-info-product">
+                  <div class="info-product mb">
+                    <div class="name-product">
+                      <a href="/<%=laptopall.laptops[i].nameseo %>"> <%=laptopall.laptops[i].name %> </a></div>
+                  </div>
+                  <div class="price-product mb">
+                     <span class="commas"><%=laptopall.laptops[i].price %></span>
+                    <sup > đ</sup></div>
+                  <div class="button-view mb">
+                      <a href="/<%=laptopall.laptops[i].nameseo %>">Xem </a></div>
+                </div>
+              </div>
+            </div>
+            <% } %>
+
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+</section>
