@@ -40,7 +40,7 @@ app.use(useragent.express());
 //passport1
 var Passport = require('passport');
 var flash = require('connect-flash');
-var validator = require('express-validator');
+//var validator = require('express-validator');
 var LocalStrategy= require('passport-local').Strategy;
 var session = require('express-session');
 const MongoStore = require('connect-mongo')(session);
@@ -63,6 +63,8 @@ app.use(Passport.session());
 
 //mongoose.connect('mongodb://atlasghemassage:ghemassage123@cluster0-shard-00-00-qm2ug.mongodb.net:27017,cluster0-shard-00-01-qm2ug.mongodb.net:27017,cluster0-shard-00-02-qm2ug.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',{useUnifiedTopology: true,useNewUrlParser: true});
 mongoose.connect('mongodb://atlasghemassage:ghemassage123@cluster0-shard-00-00-qm2ug.mongodb.net:27017,cluster0-shard-00-01-qm2ug.mongodb.net:27017,cluster0-shard-00-02-qm2ug.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority',{useUnifiedTopology: true,useNewUrlParser: true});
+
+//mongodb_url='mongodb+srv://atlasghemassage:ghemassage123@cluster0-qm2ug.mongodb.net/test?retryWrites=true&w=majority';
 //mongoose.connect(mongodb_url,{useUnifiedTopology: true,useNewUrlParser: true});
 mongoose.Promise=global.Promise;
 
@@ -82,21 +84,18 @@ app.use(function(req,res,next){
   next();
 })
 // end  passsport2
-
 app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'app/views/'));
 app.use(expressLayouts);
 app.set('layout',path.join(__dirname,'app/views/layouts/layout'));
 app.get('/admin/cms',(req,res)=>{res.render('backend/login/cms',{layout:'layouts/layoutsadmin'})});
-
-//begin passsport3
-
-//end passport3
 app.use(bodyParser.json());
+//begin passsport3
 app.use(bodyParser.urlencoded({ extended: false }));
+//end passport3
 app.use(express.static(path.join(__dirname,'public')));
 app.use(express.static(path.join(__dirname,'public/assest')));
-
+//upload image = ckeditor
 
 app.use('/',userRouter);
 app.use('/',mayvpRouter);
@@ -123,13 +122,6 @@ app.use('/',postRoutersite);
 
 
 //app.use('/customer',customerRouter);
-//upload image = ckeditor
-
-
-var browser = require('file-manager-js');
-app.all('/browser/browse', browser.browse);
-app.post('/uploader/upload', browser.upload);
-
 //end upload image ckeditor
 
 //begin Passport4

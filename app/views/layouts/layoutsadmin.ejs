@@ -21,8 +21,6 @@
     <link href="https://v4-alpha.getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css" type="text/css">
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  <script src="/assest/js/bundle.js"></script>
-  <script src="/javascripts/ckeditor/ckeditor.js"></script>
   <!-- Google Tag Manager -->
 <script type="text/javascript">
 _atrk_opts = { atrk_acct:"8DhJq1SZw320l9", domain:"ghemassageservice.com",dynamic: true};
@@ -31,7 +29,7 @@ _atrk_opts = { atrk_acct:"8DhJq1SZw320l9", domain:"ghemassageservice.com",dynami
 <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=8DhJq1SZw320l9" style="display:none" height="1" width="1" alt="" /></noscript>
 <!-- End Alexa Certify Javascript -->
   </head>
-
+  <body>
 
 <%- include('../partials/header-admin') %>
     <div class="container-fluid bg-backend">
@@ -44,11 +42,11 @@ _atrk_opts = { atrk_acct:"8DhJq1SZw320l9", domain:"ghemassageservice.com",dynami
           </div>
       </div>
     </div>
+    <script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
+    <script src="/assest/js/bundle.js"></script>
+    <script src="/javascripts/ckeditor/ckeditor.js"></script>
+    <script src="/assest/js/owl.carousel.min.js"></script>
 
-
-
+  </body>
 
 </html>
-<script type="text/javascript">
-    CKEDITOR.config.filebrowserUploadUrl = '{!! route('admin.files.uploadImage', ['_token' => csrf_token()]) !!}';
-</script>
