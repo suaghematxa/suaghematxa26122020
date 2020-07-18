@@ -96,7 +96,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname,'public')));
 app.use(express.static(path.join(__dirname,'public/assest')));
 //upload image = ckeditor
-
+app.use(require('skipper')());
+var browser = require('file-manager-js');
+app.all('/browser/browse', browser.browse);
+app.post('/uploader/upload', browser.upload);
 app.use('/',userRouter);
 app.use('/',mayvpRouter);
 app.use('/',nsxRouter);
