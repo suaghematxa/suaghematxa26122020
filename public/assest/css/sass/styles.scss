@@ -2031,7 +2031,7 @@ h1.fontsize15{
      color: #f00;
      padding-bottom: 10px;
      border-bottom: 2px dashed #f0e318;
-     width: 82%;
+     width: 100%;
      font-size: 18px;
 
    }
@@ -2106,6 +2106,10 @@ h1.fontsize15{
 }
 .infoservice {
     width: 100%;
+    h3{
+      font-size: 17px;
+      font-family: roboto;
+    }
     h2 {
       font-size: 18px;
       font-family: robotob;
@@ -2232,4 +2236,8 @@ div.cover{
     background-size: auto;
     height: 220px;
     background-position: center;
+}
+.img-dichvu{
+  max-width: 100%;
+  text-align: center;
 }
