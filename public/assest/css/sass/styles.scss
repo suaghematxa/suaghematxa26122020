@@ -2198,6 +2198,9 @@ div.cover{
     }
 }
 .dich-vu-khac{
+  ul{
+    list-style-type: decimal-leading-zero!important;
+  }
   margin-bottom:30px;
   padding:10px;
   h2{
