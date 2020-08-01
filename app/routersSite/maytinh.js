@@ -4,6 +4,13 @@ const MaytinhController = require('../controllers/site/maytinh');
 var Cart = require('../models/cart');
  var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
+router.get('/sua-ghe-massage',MaytinhController.suaghemassage_get_home);
+router.get('/thay-da-ghe-massage',MaytinhController.thaydaghemassage_get_home);
+router.get('/thay-tui-hoi-ghe-massage',MaytinhController.thaytuihoighemassage_get_home);
+router.get('/cho-thue-ghe-massage',MaytinhController.chothueghemassage_get_home);
+router.get('/thao-lap-van-chuyen-ghe-massage',MaytinhController.vanchuyenlapdatghemassage_get_home);
+router.get('/thu-mua-ghe-massage-cu',MaytinhController.thumuaghemassage_get_home);
+router.get('/thanh-ly-ghe-massage-cu',MaytinhController.thanhlyghemassagecu_get_home);
 router.get('/lap-top',MaytinhController.maytinh_get_home);
 router.get('/may-photocopy',MaytinhController.mayphoto_get_home);
 router.get('/may-in',MaytinhController.mayin_get_home);
