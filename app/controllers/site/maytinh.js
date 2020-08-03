@@ -722,7 +722,7 @@ exports.suaghemassage_get_home = (req, res, next) => {
          })
   }
   else{
-    res.render('fontend/suaghemassage',{layout:'layouts/layoutadmin'});
+    res.render('fontend/ghemassage/dichvusuaghemassage',{layout:'layouts/layoutadmin'});
   }
 }
 exports.thaydaghemassage_get_home = (req, res, next) => {
