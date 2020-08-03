@@ -3,6 +3,690 @@ const Laptop = require("../../models/laptop");
 
 const Post = require("../../models/posts");
 const useragent = require('express-useragent');
+exports.suaghemassagehadong_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagehadong',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagedonganhmelinhsocson',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagexuanmai_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagexuanmai',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagehoabinh_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagehoabinh',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagequangninh_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagequangninh',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagehaiphong_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagehaiphong',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagehaiduong_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagehaiduong',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagephutho_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagephutho',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagevinhphuc_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagevinhphuc',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagenghean_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagenghean',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagethanhhoa_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagethanhhoa',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassageninhbinh_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassageninhbinh',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagethaibinh_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagethaibinh',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagenamdinh_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagenamdinh',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagehanam_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagehanam',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagelangson_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagelangson',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagebacgiang_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagebacgiang',{layout:'layouts/layoutadmin'});
+  }
+}
+exports.suaghemassagebacninh_get_home = (req, res, next) => {
+  if(req.useragent.isMobile){
+    Post.find({typepost:"Tư Vấn Chọn Mua"})
+         .select("_id title titleseo shortdescription description day ogtitle ogdescription keywords typepost image index")
+         .limit(6)
+         .sort('index')
+         .exec()
+         .then(docs => {
+           const poststuvan = {
+             count: docs.length,
+             post: docs.map(doc => {
+               return {
+                 title: doc.title,
+                 titleseo: doc.titleseo,
+                 shortdescription: doc.shortdescription,
+                 _id: doc._id,
+                 description:doc.description,
+                 day:doc.day,
+                 ogtitle:doc.ogtitle,
+                 ogdescription:doc.ogdescription,
+                 keywords:doc.keywords,
+                 typepost:doc.typepost,
+                 image:doc.image,
+                 index:doc.index,
+                 request: {
+                   type: "GET",
+                   url: "http://localhost:3000/ghemassages/" + doc._id
+                 }
+               };
+             })
+           };
+           res.render('mobile/ghemassage/mienbac/suaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         })
+  }
+  else{
+    res.render('fontend/ghemassage/mienbac/suaghemassagebacninh',{layout:'layouts/layoutadmin'});
+  }
+}
 exports.suaghemassage_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
