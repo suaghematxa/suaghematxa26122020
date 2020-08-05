@@ -4,6 +4,7 @@ const MaytinhController = require('../controllers/site/maytinh');
 var Cart = require('../models/cart');
  var bodyParser = require('body-parser');
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
+router.get('/dich-vu-sua-ghe-massage',MaytinhController.suaghemassage_get_home);
 router.get('/sua-ghe-massage-hung-yen',MaytinhController.suaghemassagehungyen_get_home);
 router.get('/sua-ghe-massage-xuan-mai',MaytinhController.suaghemassagexuanmai_get_home);
 router.get('/sua-ghe-massage-ha-dong',MaytinhController.suaghemassagehadong_get_home);
