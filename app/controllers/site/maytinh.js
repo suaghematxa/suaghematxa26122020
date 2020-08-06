@@ -71,6 +71,9 @@ exports.suaghemassagehungyen_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagehungyenredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-hung-yen')
+}
 exports.suaghemassagehadong_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -138,6 +141,9 @@ exports.suaghemassagehadong_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagehadongredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-ha-dong')
 }
 exports.suaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -207,6 +213,9 @@ exports.suaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagedonganhmelinhsocsonredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-donganh-melinh-socson')
+}
 exports.suaghemassagexuanmai_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -274,6 +283,9 @@ exports.suaghemassagexuanmai_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagexuanmairedirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-xuan-mai')
 }
 exports.suaghemassagehoabinh_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -343,6 +355,9 @@ exports.suaghemassagehoabinh_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagehoabinhredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-hoa-binh')
+}
 exports.suaghemassagequangninh_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -410,6 +425,9 @@ exports.suaghemassagequangninh_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagequangninhredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-quang-ninh')
 }
 exports.suaghemassagehaiphong_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -479,6 +497,9 @@ exports.suaghemassagehaiphong_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagehaiphongredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-hai-phong')
+}
 exports.suaghemassagehaiduong_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -546,6 +567,9 @@ exports.suaghemassagehaiduong_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagehaiduongredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-hai-duong')
 }
 exports.suaghemassagephutho_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -615,6 +639,9 @@ exports.suaghemassagephutho_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagephuthoredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-phu-tho')
+}
 exports.suaghemassagevinhphuc_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -682,6 +709,9 @@ exports.suaghemassagevinhphuc_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagevinhphucredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-vinh-phuc')
 }
 exports.suaghemassagenghean_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -751,6 +781,9 @@ exports.suaghemassagenghean_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagengheanredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-nghe-an')
+}
 exports.suaghemassagethanhhoa_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -818,6 +851,9 @@ exports.suaghemassagethanhhoa_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagethanhhoaredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-thanh-hoa')
 }
 exports.suaghemassageninhbinh_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -887,6 +923,9 @@ exports.suaghemassageninhbinh_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassageninhbinhredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-ninh-binh')
+}
 exports.suaghemassagethaibinh_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -954,6 +993,9 @@ exports.suaghemassagethaibinh_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagethaibinhredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-thai-binh')
 }
 exports.suaghemassagenamdinh_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -1023,6 +1065,9 @@ exports.suaghemassagenamdinh_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagenamdinhredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-nam-dinh')
+}
 exports.suaghemassagehanam_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -1090,6 +1135,9 @@ exports.suaghemassagehanam_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagehanamredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-ha-nam')
 }
 exports.suaghemassagelangson_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
@@ -1159,6 +1207,9 @@ exports.suaghemassagelangson_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagelangsonredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-lang-son')
+}
 exports.suaghemassagebacgiang_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -1227,6 +1278,9 @@ exports.suaghemassagebacgiang_get_home = (req, res, next) => {
          })
   }
 }
+exports.suaghemassagebacgiangredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-bac-giang')
+}
 exports.suaghemassagebacninh_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
     Post.find({typepost:"Tư Vấn Chọn Mua"})
@@ -1294,6 +1348,9 @@ exports.suaghemassagebacninh_get_home = (req, res, next) => {
            res.render('mobile/ghemassage/mienbac/suaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
          })
   }
+}
+exports.suaghemassagebacninhredirect_get_home = (req, res) => {
+  res.redirect('/sua-ghe-massage-bac-ninh')
 }
 exports.suaghemassage_get_home = (req, res, next) => {
   if(req.useragent.isMobile){
