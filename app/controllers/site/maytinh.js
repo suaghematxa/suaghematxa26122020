@@ -1518,7 +1518,7 @@ exports.thaydaghemassagebacgiang_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydabacgiang'});
        })
 }
 exports.thaydaghemassagebacninh_get_home = (req, res, next) => {
@@ -1551,7 +1551,7 @@ exports.thaydaghemassagebacninh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydabacninh'});
        })
 }
 exports.thaydaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
@@ -1584,7 +1584,7 @@ exports.thaydaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydadonganhmelinhsocson'});
        })
 }
 exports.thaydaghemassagehadong_get_home = (req, res, next) => {
@@ -1617,7 +1617,7 @@ exports.thaydaghemassagehadong_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydahadong'});
        })
 }
 exports.thaydaghemassagehaiduong_get_home = (req, res, next) => {
@@ -1650,7 +1650,7 @@ exports.thaydaghemassagehaiduong_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydahaiduong'});
        })
 }
 exports.thaydaghemassagehaiphong_get_home = (req, res, next) => {
@@ -1683,7 +1683,7 @@ exports.thaydaghemassagehaiphong_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydahaiphong'});
        })
 }
 exports.thaydaghemassagehanam_get_home = (req, res, next) => {
@@ -1716,7 +1716,7 @@ exports.thaydaghemassagehanam_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydahanam'});
        })
 }
 exports.thaydaghemassagehoabinh_get_home = (req, res, next) => {
@@ -1749,7 +1749,7 @@ exports.thaydaghemassagehoabinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydahoabinh'});
        })
 }
 exports.thaydaghemassagehungyen_get_home = (req, res, next) => {
@@ -1782,7 +1782,7 @@ exports.thaydaghemassagehungyen_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydahungyen'});
        })
 }
 exports.thaydaghemassagelangson_get_home = (req, res, next) => {
@@ -1815,7 +1815,7 @@ exports.thaydaghemassagelangson_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydalangson'});
        })
 }
 exports.thaydaghemassagenamdinh_get_home = (req, res, next) => {
@@ -1848,7 +1848,7 @@ exports.thaydaghemassagenamdinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydanamdinh'});
        })
 }
 exports.thaydaghemassagenghean_get_home = (req, res, next) => {
@@ -1881,7 +1881,7 @@ exports.thaydaghemassagenghean_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydanghean'});
        })
 }
 exports.thaydaghemassageninhbinh_get_home = (req, res, next) => {
@@ -1914,7 +1914,7 @@ exports.thaydaghemassageninhbinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydaninhbinh'});
        })
 }
 exports.thaydaghemassagephutho_get_home = (req, res, next) => {
@@ -1947,7 +1947,7 @@ exports.thaydaghemassagephutho_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydaphutho'});
        })
 }
 exports.thaydaghemassagequangninh_get_home = (req, res, next) => {
@@ -1980,7 +1980,7 @@ exports.thaydaghemassagequangninh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydaquangninh'});
        })
 }
 exports.thaydaghemassagethaibinh_get_home = (req, res, next) => {
@@ -2013,7 +2013,7 @@ exports.thaydaghemassagethaibinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydathaibinh'});
        })
 }
 exports.thaydaghemassagethanhhoa_get_home = (req, res, next) => {
@@ -2046,7 +2046,7 @@ exports.thaydaghemassagethanhhoa_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydathanhhoa'});
        })
 }
 exports.thaydaghemassagevinhphuc_get_home = (req, res, next) => {
@@ -2079,7 +2079,7 @@ exports.thaydaghemassagevinhphuc_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydavinhphuc'});
        })
 }
 exports.thaydaghemassagexuanmai_get_home = (req, res, next) => {
@@ -2112,7 +2112,7 @@ exports.thaydaghemassagexuanmai_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thaydaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thaydaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethaydaxuanmai'});
        })
 }
 exports.thaytuihoighemassage_get_home = (req, res, next) => {
@@ -2417,7 +2417,7 @@ exports.thumuaghemassagebacgiang_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuabacgiang'});
        })
 }
 exports.thumuaghemassagebacninh_get_home = (req, res, next) => {
@@ -2450,7 +2450,7 @@ exports.thumuaghemassagebacninh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuabacninh'});
        })
 }
 exports.thumuaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
@@ -2483,7 +2483,7 @@ exports.thumuaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuadonganhmelinhsocson'});
        })
 }
 exports.thumuaghemassagehadong_get_home = (req, res, next) => {
@@ -2516,7 +2516,7 @@ exports.thumuaghemassagehadong_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuahadong'});
        })
 }
 exports.thumuaghemassagehaiduong_get_home = (req, res, next) => {
@@ -2549,7 +2549,7 @@ exports.thumuaghemassagehaiduong_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuahaiduong'});
        })
 }
 exports.thumuaghemassagehaiphong_get_home = (req, res, next) => {
@@ -2582,7 +2582,7 @@ exports.thumuaghemassagehaiphong_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuahaiphong'});
        })
 }
 exports.thumuaghemassagehanam_get_home = (req, res, next) => {
@@ -2615,7 +2615,7 @@ exports.thumuaghemassagehanam_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuahanam'});
        })
 }
 exports.thumuaghemassagehoabinh_get_home = (req, res, next) => {
@@ -2648,7 +2648,7 @@ exports.thumuaghemassagehoabinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuahoabinh'});
        })
 }
 exports.thumuaghemassagehungyen_get_home = (req, res, next) => {
@@ -2681,7 +2681,7 @@ exports.thumuaghemassagehungyen_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuahungyen'});
        })
 }
 exports.thumuaghemassagelangson_get_home = (req, res, next) => {
@@ -2714,7 +2714,7 @@ exports.thumuaghemassagelangson_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumualangson'});
        })
 }
 exports.thumuaghemassagenamdinh_get_home = (req, res, next) => {
@@ -2747,7 +2747,7 @@ exports.thumuaghemassagenamdinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuanamdinh'});
        })
 }
 exports.thumuaghemassagenghean_get_home = (req, res, next) => {
@@ -2780,7 +2780,7 @@ exports.thumuaghemassagenghean_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuanghean'});
        })
 }
 exports.thumuaghemassageninhbinh_get_home = (req, res, next) => {
@@ -2813,7 +2813,7 @@ exports.thumuaghemassageninhbinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuaninhbinh'});
        })
 }
 exports.thumuaghemassagephutho_get_home = (req, res, next) => {
@@ -2846,7 +2846,7 @@ exports.thumuaghemassagephutho_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuaphutho'});
        })
 }
 exports.thumuaghemassagequangninh_get_home = (req, res, next) => {
@@ -2879,7 +2879,7 @@ exports.thumuaghemassagequangninh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuaquangninh'});
        })
 }
 exports.thumuaghemassagethaibinh_get_home = (req, res, next) => {
@@ -2912,7 +2912,7 @@ exports.thumuaghemassagethaibinh_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuathaibinh'});
        })
 }
 exports.thumuaghemassagethanhhoa_get_home = (req, res, next) => {
@@ -2945,7 +2945,7 @@ exports.thumuaghemassagethanhhoa_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuathanhhoa'});
        })
 }
 exports.thumuaghemassagevinhphuc_get_home = (req, res, next) => {
@@ -2978,7 +2978,7 @@ exports.thumuaghemassagevinhphuc_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuavinhphuc'});
        })
 }
 exports.thumuaghemassagexuanmai_get_home = (req, res, next) => {
@@ -3011,7 +3011,7 @@ exports.thumuaghemassagexuanmai_get_home = (req, res, next) => {
              };
            })
          };
-         res.render('mobile/ghemassage/mienbac/thumuaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+         res.render('mobile/ghemassage/mienbac/thumuaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilethumuaxuanmai'});
        })
 }
 exports.thanhlyghemassagecu_get_home = (req, res, next) => {
