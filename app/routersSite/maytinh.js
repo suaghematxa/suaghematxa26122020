@@ -66,6 +66,25 @@ router.get('/thay-da-ghe-massage-thanh-hoa',MaytinhController.thaydaghemassageth
 router.get('/thay-da-ghe-massage-vinh-phuc',MaytinhController.thaydaghemassagevinhphuc_get_home);
 router.get('/thay-da-ghe-massage-xuan-mai',MaytinhController.thaydaghemassagexuanmai_get_home);
 
+router.get('/boc-da-ghe-massage-tai-bac-giang',MaytinhController.bocdaghemassagebacgiang_get_home);
+router.get('/boc-da-ghe-massage-tai-bac-ninh',MaytinhController.bocdaghemassagebacninh_get_home);
+router.get('/boc-da-ghe-massage-tai-donganh-melinh-socson',MaytinhController.bocdaghemassagedonganhmelinhsocson_get_home);
+router.get('/boc-da-ghe-massage-tai-ha-dong',MaytinhController.bocdaghemassagehadong_get_home);
+router.get('/boc-da-ghe-massage-tai-hai-duong',MaytinhController.bocdaghemassagehaiduong_get_home);
+router.get('/boc-da-ghe-massage-tai-hai-phong',MaytinhController.bocdaghemassagehaiphong_get_home);
+router.get('/boc-da-ghe-massage-tai-ha-nam',MaytinhController.bocdaghemassagehanam_get_home);
+router.get('/boc-da-ghe-massage-tai-hoa-binh',MaytinhController.bocdaghemassagehoabinh_get_home);
+router.get('/boc-da-ghe-massage-tai-hung-yen',MaytinhController.bocdaghemassagehungyen_get_home);
+router.get('/boc-da-ghe-massage-tai-lang-son',MaytinhController.bocdaghemassagelangson_get_home);
+router.get('/boc-da-ghe-massage-tai-nam-dinh',MaytinhController.bocdaghemassagenamdinh_get_home);
+router.get('/boc-da-ghe-massage-tai-nghe-an',MaytinhController.bocdaghemassagenghean_get_home);
+router.get('/boc-da-ghe-massage-tai-ninh-binh',MaytinhController.bocdaghemassageninhbinh_get_home);
+router.get('/boc-da-ghe-massage-tai-phu-tho',MaytinhController.bocdaghemassagephutho_get_home);
+router.get('/boc-da-ghe-massage-tai-quang-ninh',MaytinhController.bocdaghemassagequangninh_get_home);
+router.get('/boc-da-ghe-massage-tai-thai-binh',MaytinhController.bocdaghemassagethaibinh_get_home);
+router.get('/boc-da-ghe-massage-tai-thanh-hoa',MaytinhController.bocdaghemassagethanhhoa_get_home);
+router.get('/boc-da-ghe-massage-tai-vinh-phuc',MaytinhController.bocdaghemassagevinhphuc_get_home);
+router.get('/boc-da-ghe-massage-tai-xuan-mai',MaytinhController.bocdaghemassagexuanmai_get_home);
 
 router.get('/thay-tui-hoi-ghe-massage',MaytinhController.thaytuihoighemassage_get_home);
 router.get('/cho-thue-ghe-massage',MaytinhController.chothueghemassage_get_home);
