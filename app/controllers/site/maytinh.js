@@ -34,7 +34,7 @@ exports.suaghemassagehungyen_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehungyen'});
          })
   }
   else{
@@ -67,7 +67,7 @@ exports.suaghemassagehungyen_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehungyen',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehungyen'});
          })
   }
 }
@@ -105,7 +105,7 @@ exports.suaghemassagehadong_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehadong'});
          })
   }
   else{
@@ -138,7 +138,7 @@ exports.suaghemassagehadong_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehadong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehadong'});
          })
   }
 }
@@ -176,7 +176,7 @@ exports.suaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagedonganhmelinhsocson'});
          })
   }
   else{
@@ -209,7 +209,7 @@ exports.suaghemassagedonganhmelinhsocson_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagedonganhmelinhsocson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagedonganhmelinhsocson'});
          })
   }
 }
@@ -247,7 +247,7 @@ exports.suaghemassagexuanmai_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagexuanmai'});
          })
   }
   else{
@@ -280,7 +280,7 @@ exports.suaghemassagexuanmai_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagexuanmai',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagexuanmai'});
          })
   }
 }
@@ -318,7 +318,7 @@ exports.suaghemassagehoabinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehoabinh'});
          })
   }
   else{
@@ -351,7 +351,7 @@ exports.suaghemassagehoabinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehoabinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehoabinh'});
          })
   }
 }
@@ -389,7 +389,7 @@ exports.suaghemassagequangninh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagequangninh'});
          })
   }
   else{
@@ -422,7 +422,7 @@ exports.suaghemassagequangninh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagequangninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagequangninh'});
          })
   }
 }
@@ -460,7 +460,7 @@ exports.suaghemassagehaiphong_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehaiphong'});
          })
   }
   else{
@@ -493,7 +493,7 @@ exports.suaghemassagehaiphong_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehaiphong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehaiphong'});
          })
   }
 }
@@ -531,7 +531,7 @@ exports.suaghemassagehaiduong_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehaiduong'});
          })
   }
   else{
@@ -564,7 +564,7 @@ exports.suaghemassagehaiduong_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehaiduong',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehaiduong'});
          })
   }
 }
@@ -602,7 +602,7 @@ exports.suaghemassagephutho_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagephutho'});
          })
   }
   else{
@@ -635,7 +635,7 @@ exports.suaghemassagephutho_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagephutho',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagephutho'});
          })
   }
 }
@@ -673,7 +673,7 @@ exports.suaghemassagevinhphuc_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagevinhphuc'});
          })
   }
   else{
@@ -706,7 +706,7 @@ exports.suaghemassagevinhphuc_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagevinhphuc',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilelayoutmobilesuaghemassagevinhphuc'});
          })
   }
 }
@@ -744,7 +744,7 @@ exports.suaghemassagenghean_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagenghean'});
          })
   }
   else{
@@ -777,7 +777,7 @@ exports.suaghemassagenghean_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagenghean',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagenghean'});
          })
   }
 }
@@ -815,7 +815,7 @@ exports.suaghemassagethanhhoa_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagethanhhoa'});
          })
   }
   else{
@@ -848,7 +848,7 @@ exports.suaghemassagethanhhoa_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagethanhhoa'});
          })
   }
 }
@@ -886,7 +886,7 @@ exports.suaghemassageninhbinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassageninhbinh'});
          })
   }
   else{
@@ -919,7 +919,7 @@ exports.suaghemassageninhbinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassageninhbinh'});
          })
   }
 }
@@ -957,7 +957,7 @@ exports.suaghemassagethaibinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagethaibinh'});
          })
   }
   else{
@@ -990,7 +990,7 @@ exports.suaghemassagethaibinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagethaibinh'});
          })
   }
 }
@@ -1028,7 +1028,7 @@ exports.suaghemassagenamdinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagenamdinh'});
          })
   }
   else{
@@ -1061,7 +1061,7 @@ exports.suaghemassagenamdinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagenamdinh'});
          })
   }
 }
@@ -1099,7 +1099,7 @@ exports.suaghemassagehanam_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehanam'});
          })
   }
   else{
@@ -1132,7 +1132,7 @@ exports.suaghemassagehanam_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagehanam'});
          })
   }
 }
@@ -1170,7 +1170,7 @@ exports.suaghemassagelangson_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagelangson'});
          })
   }
   else{
@@ -1203,7 +1203,7 @@ exports.suaghemassagelangson_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagelangson',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilelayoutmobilesuaghemassagelangson'});
          })
   }
 }
@@ -1241,7 +1241,7 @@ exports.suaghemassagebacgiang_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagebacgiang'});
          })
   }
   else{
@@ -1274,7 +1274,7 @@ exports.suaghemassagebacgiang_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagebacgiang',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilelayoutmobilesuaghemassagebacgiang'});
          })
   }
 }
@@ -1312,7 +1312,7 @@ exports.suaghemassagebacninh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagebacninh'});
          })
   }
   else{
@@ -1345,7 +1345,7 @@ exports.suaghemassagebacninh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagebacninh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassagebacninh'});
          })
   }
 }
