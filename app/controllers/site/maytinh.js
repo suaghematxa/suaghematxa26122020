@@ -1383,7 +1383,7 @@ exports.suaghemassage_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/suaghemassage',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/suaghemassage',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
   else{
