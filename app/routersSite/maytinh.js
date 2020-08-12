@@ -46,6 +46,7 @@ router.get('/sua-ghe-massage-bac-ninh',MaytinhController.suaghemassagebacninh_ge
 router.get('/sua-ghe-massage-tai-bac-ninh',MaytinhController.suaghemassagebacninhredirect_get_home);
 router.get('/sua-ghe-massage',MaytinhController.suaghemassage_get_home);
 router.get('/thay-da-ghe-massage',MaytinhController.thaydaghemassage_get_home);
+router.get('/sua-ghe-massage-ha-noi',MaytinhController.suaghemassagehanoi_get_home);
 router.get('/thay-da-ghe-massage-bac-giang',MaytinhController.thaydaghemassagebacgiang_get_home);
 router.get('/thay-da-ghe-massage-bac-ninh',MaytinhController.thaydaghemassagebacninh_get_home);
 router.get('/thay-da-ghe-massage-donganh-melinh-socson',MaytinhController.thaydaghemassagedonganhmelinhsocson_get_home);
