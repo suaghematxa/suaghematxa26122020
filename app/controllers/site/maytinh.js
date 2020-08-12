@@ -815,7 +815,7 @@ exports.suaghemassagethanhhoa_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
   else{
@@ -848,7 +848,7 @@ exports.suaghemassagethanhhoa_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethanhhoa',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
 }
@@ -886,7 +886,7 @@ exports.suaghemassageninhbinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
   else{
@@ -919,7 +919,7 @@ exports.suaghemassageninhbinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassageninhbinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
 }
@@ -957,7 +957,7 @@ exports.suaghemassagethaibinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
   else{
@@ -990,7 +990,7 @@ exports.suaghemassagethaibinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagethaibinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
 }
@@ -1028,7 +1028,7 @@ exports.suaghemassagenamdinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
   else{
@@ -1061,7 +1061,7 @@ exports.suaghemassagenamdinh_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagenamdinh',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
 }
@@ -1099,7 +1099,7 @@ exports.suaghemassagehanam_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
   else{
@@ -1132,7 +1132,7 @@ exports.suaghemassagehanam_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/mienbac/suaghemassagehanam',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
 }
@@ -1416,7 +1416,7 @@ exports.suaghemassage_get_home = (req, res, next) => {
                };
              })
            };
-           res.render('mobile/ghemassage/suaghemassage',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobile'});
+           res.render('mobile/ghemassage/suaghemassage',{poststuvan:poststuvan,layout:'layouts/layoutmobile/layoutmobilesuaghemassage'});
          })
   }
 }
